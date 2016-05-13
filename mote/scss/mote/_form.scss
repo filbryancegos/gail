@@ -1,0 +1,25 @@
+.gform_wrapper {
+    max-width: 100% !important;
+
+    .gfield_required {
+        color: $alert-color !important;
+    }
+
+    .hidden_label input.large,
+    .hidden_label select.large,
+    .top_label input.large,
+    .top_label select.large,
+    textarea.large {
+        width: 100% !important;
+    }
+
+    .top_label .gfield_label {
+        color: $white;
+        font-size: rem-calc(16);
+        font-weight: $font-weight-normal !important;
+    }
+
+    label.gfield_label+div.ginput_container {
+        margin-top: 0 !important;
+    }
+}

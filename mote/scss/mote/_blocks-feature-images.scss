@@ -1,0 +1,42 @@
+.images {
+    padding-bottom: 0;
+
+    h2, p {
+        text-align: center;
+        max-width: rem-calc(800);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .image-list {
+        height: rem-calc(400);
+        overflow: hidden;
+        display: block;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    [class*="block-grid-"] {
+        margin: 0 0 2rem 0;
+
+        li {
+            padding: 0;
+        }
+    }
+
+    .default {}
+}
+
+.center-image{
+  text-align : center;
+}
+
+@media only screen and (max-width: 641px) {
+  .blog-text {
+    text-align: center;
+  }
+}

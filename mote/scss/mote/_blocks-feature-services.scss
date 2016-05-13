@@ -1,0 +1,45 @@
+.services {
+    background-size: cover;
+    background-position: center;
+
+    .service {
+        background: $white;
+        border-top-left-radius: $global-radius;
+        border-top-right-radius: $global-radius;
+        height: 100%;
+        box-shadow: 0 0 10px rgba($black, .4);
+        color: $jet;
+
+        h3 {
+            color: $jet;
+        }
+    }
+
+    [class*="block-grid-"] {
+        .image {
+            border-top-left-radius: $global-radius;
+            border-top-right-radius: $global-radius;
+            height: rem-calc(200);
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .info {
+            margin: 1rem;
+            overflow: hidden;
+        }
+
+        .call-to-action {
+            margin: 0 1rem;
+        }
+    }
+
+    .default {
+        text-align: left;
+    }
+}

@@ -1,0 +1,83 @@
+/*
+ * Theme Name: Mote
+ * Theme URI: http://inoc.me/mote
+ * Author: Jofil Inoc Baring
+ * Author URI: http://inoc.me
+ * Description: a tiny speck
+ * Version: 1.0.0
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: mote
+ * Tags: _s, Foundation, Wordpress
+ *
+ * This theme, like WordPress, is licensed under the GPL.
+ * Use it to make something cool, have fun, and share what you've learned with others.
+ *
+ * Mote is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+ * Underscores is distributed under the terms of the GNU GPL v2 or later.
+ *
+ * Normalizing styles have been helped along thanks to the fine work of
+ * Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+@import "settings";
+// @import "foundation";
+
+// Or selectively include components
+@import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+   "foundation/components/buttons",
+//   "foundation/components/clearing",
+   "foundation/components/dropdown",
+   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+   "foundation/components/forms",
+   "foundation/components/grid",
+   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+   "foundation/components/top-bar",
+//   "foundation/components/type",
+   "foundation/components/offcanvas",
+   "foundation/components/visibility";
+
+@import "hover";
+@import "ionicons-variables";
+@import "ionicons-font";
+@import "ionicons-icons";
+@import "slick";
+@import "slick-theme";
+// @import "mote/lightslider";
+@import "mote/header";
+@import "mote/post";
+@import "mote/form";
+@import "mote/blocks";
+@import "mote/blocks-post-wysiwyg";
+@import "mote/blocks-feature-callouts";
+@import "mote/blocks-feature-images";
+@import "mote/blocks-feature-services";
+@import "mote/blocks-feature-slides";
+@import "mote/blocks-forms";
+@import "mote/blocks-maps";
+@import "mote/footer";
+@import "mote/structure";

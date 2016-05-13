@@ -1,0 +1,12 @@
+.callouts {
+    background-size: cover;
+    background-position: center;
+
+    .default {
+        text-align: left;
+
+        h2, p {
+            max-width: rem-calc(800);
+        }
+    }
+}

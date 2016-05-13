@@ -1,0 +1,9 @@
+{
+  "name": "foundation-libsass-template",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation",
+    "slick.js": "kenwheeler/slick",
+    "ionicons": "driftyco/ionicons",
+    "Hover": "IanLunn/Hover"
+  }
+}
